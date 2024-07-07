@@ -6,7 +6,12 @@ module.exports = {
     title: `Discover HK School`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-styled-components", { 
+    resolve: "gatsby-plugin-google-gtag",
+    options: {
+      "trackingIds": ["G-6TLC8058Y5"]
+    }
+  }, "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
