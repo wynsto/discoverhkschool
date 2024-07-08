@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: "香港学校的那些英文缩写（彩蛋：海外升学路线）"
 date: "2021-07-23"
 slug: "abbreviations-of-hk-school"
 ---
